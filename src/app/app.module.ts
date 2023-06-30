@@ -8,20 +8,19 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlertComponent
+    AlertComponent,
+    HomeComponent
   ],
-  imports: [
+  imports: [ 
     BrowserModule,
-    HttpClientModule,
-    AppRoutingModule,
-    FormsModule,
-    CommonModule,
     ReactiveFormsModule,
-    RouterModule,
+    HttpClientModule,
+    AppRoutingModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
