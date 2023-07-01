@@ -1,5 +1,5 @@
 import { NgClass, NgIf } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { first } from 'rxjs';
@@ -12,7 +12,7 @@ import { AccountService, AlertService } from 'src/app/_services';
   standalone: true,
   imports: [ReactiveFormsModule, NgClass, NgIf, RouterLink]
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
   form!: FormGroup;
   submitting = false;
   submitted = false;

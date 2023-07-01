@@ -1,5 +1,5 @@
 import { NgClass, NgIf } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { first, finalize } from 'rxjs';
@@ -12,7 +12,7 @@ import { AccountService, AlertService } from 'src/app/_services';
   standalone: true,
   imports: [ReactiveFormsModule, NgClass, NgIf, RouterLink]
 })
-export class ForgotPasswordComponent {
+export class ForgotPasswordComponent implements OnInit {
   form!: FormGroup;
   loading = false;
   submitted = false;

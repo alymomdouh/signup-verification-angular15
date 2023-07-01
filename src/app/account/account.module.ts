@@ -8,7 +8,6 @@ import { RouterModule } from "@angular/router";
 
 @NgModule({
     imports: [
-        BrowserModule,
         FormsModule,
         CommonModule,
         ReactiveFormsModule,
