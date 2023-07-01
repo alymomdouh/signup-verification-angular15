@@ -12,6 +12,7 @@ https://github.com/cornflourblue/angular-15-signup-verification-boilerplate
 ### 5- [Angular - Multiple Field (Cross Field) Validation with Template-Driven Forms](https://jasonwatmore.com/angular-multiple-field-cross-field-validation-with-template-driven-forms)  (this MustMatch Validation between password and confirmPassword)
 ### 6- [Angular - Multiple Field (Cross Field) Validation with Reactive Forms](https://jasonwatmore.com/angular-multiple-field-cross-field-validation-with-reactive-forms)  (this MustMatch Validation between password and confirmPassword)
 ### 7- [Getting the Bootstrap 5 Modal and Angular 15 to play nicely together](https://jasonwatmore.com/getting-the-bootstrap-5-modal-and-angular-15-to-play-nicely-together) (make model component and service manual)
+### 8- [Angular Date Pipe - Format Date as mm/dd/yyyy or dd/mm/yyyy in Angular](https://jasonwatmore.com/angular-date-pipe-format-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-angular)
 <!--   
 other source control is 
 [https://github.com/cornflourblue/angular-15-signup-verification-boilerplate](https://github.com/cornflourblue/bootstrap-5-modal-angular-15)https://github.com/cornflourblue/bootstrap-5-modal-angular-15
