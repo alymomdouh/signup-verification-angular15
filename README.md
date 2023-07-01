@@ -17,3 +17,5 @@ https://github.com/cornflourblue/angular-15-signup-verification-boilerplate
 other source control is 
 [https://github.com/cornflourblue/angular-15-signup-verification-boilerplate](https://github.com/cornflourblue/bootstrap-5-modal-angular-15)https://github.com/cornflourblue/bootstrap-5-modal-angular-15
 -->
+### 9- [Angular 14 - JWT Authentication Example & Tutorial](https://jasonwatmore.com/post/2022/11/15/angular-14-jwt-authentication-example-tutorial) (Angular Only)
+### 10- [JWT with Refresh Tokens vs JWT Access Tokens Alone for Auth](https://jasonwatmore.com/jwt-with-refresh-tokens-vs-jwt-access-tokens-alone-for-auth) (Angular 14 and .NET 6.0 API)
