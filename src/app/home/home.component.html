@@ -3,4 +3,51 @@
         <h1>Hi {{account?.firstName}}!</h1>
         <p>You're logged in with Angular 15 & JWT!!</p>
     </div>
+    <hr>
+    <h1>Test Model In Boostrap 5</h1>
+    <div>
+        <div class="m-3">
+            <h1>Bootstrap 5 Modal Example with Angular 15</h1>
+
+            <button class="btn btn-primary me-2" (click)="modalService.open('modal-1')">Open Modal 1</button>
+            <button class="btn btn-primary" (click)="modalService.open('modal-2')">Open Modal 2</button>
+        </div>
+
+        <app-modal id="modal-1">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" (click)="modalService.close();"></button>
+            </div>
+            <div class="modal-body">
+                ...modal body
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="modalService.close();">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+        </app-modal>
+
+        <app-modal id="modal-2">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                <button type="button" class="btn-close" (click)="modalService.close();"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="modalService.close();">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </app-modal>
+    </div>
 </div>

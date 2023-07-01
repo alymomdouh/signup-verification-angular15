@@ -11,12 +11,14 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ErrorInterceptor, JwtInterceptor, appInitializer, fakeBackendProvider } from './_helpers';
 import { AccountService } from './_services';
+import { ModalComponent } from './_components/modal/modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlertComponent,
-    HomeComponent
+    HomeComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
