@@ -1,6 +1,6 @@
 import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent, HttpResponse, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Observable, of, delay, throwError, materialize, dematerialize } from "rxjs";
+import { Observable, of, delay, throwError, materialize, dematerialize, mergeMap } from "rxjs";
 import { Role } from "../_models";
 import { AlertService } from "../_services";
 
@@ -16,7 +16,15 @@ export class FakeBackendInterceptor implements HttpInterceptor {
         const { url, method, headers, body } = request;
         const alertService = this.alertService;
 
-        return handleRoute();
+        // wrap in delayed observable to simulate server api call
+        return of(null)
+            .pipe(mergeMap(handleRoute))
+            .pipe(materialize()) 
+            // call materialize and dematerialize to ensure delay even if an error is thrown (https://github.com/Reactive-Extensions/RxJS/issues/648)
+            .pipe(delay(500))
+            .pipe(dematerialize());
+
+       // return handleRoute();
 
         function handleRoute() {
             switch (true) {
