@@ -31,3 +31,4 @@ other source control is
 ### 18-[Angular 14 - Fake Backend API to Intercept HTTP Requests in Development](https://jasonwatmore.com/post/2022/11/30/angular-14-fake-backend-api-to-intercept-http-requests-in-development)
 ### 19-[Angular 14 - User Registration and Login Example & Tutorial](https://jasonwatmore.com/post/2022/11/29/angular-14-user-registration-and-login-example-tutorial)
 ### 20-[Angular 14 - Alert (Toaster) Notifications Tutorial & Example](https://jasonwatmore.com/post/2022/11/23/angular-14-alert-toaster-notifications-tutorial-example)
+### 21-[Angular - Detect Route Change (Location Change) Event in Angular](https://jasonwatmore.com/post/2022/11/24/angular-detect-route-change-location-change-event-in-angular)
