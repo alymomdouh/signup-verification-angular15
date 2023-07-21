@@ -28,3 +28,4 @@ other source control is
 ### 15- [Angular 14 - JWT Authentication with Refresh Tokens Example & Tutorial](https://jasonwatmore.com/post/2022/12/08/angular-14-jwt-authentication-with-refresh-tokens-example-tutorial)
 ### 16- [Angular - Execute an init function before app startup with an Angular APP_INITIALIZER](https://jasonwatmore.com/post/2022/12/09/angular-execute-an-init-function-before-app-startup-with-an-angular-app-initializer)
 ### 17- [Angular 14 - Dynamic Add/Edit Form that Supports Create and Update Mode](https://jasonwatmore.com/post/2022/12/05/angular-14-dynamic-add-edit-form-that-supports-create-and-update-mode)
+### 18-[Angular 14 - Fake Backend API to Intercept HTTP Requests in Development](https://jasonwatmore.com/post/2022/11/30/angular-14-fake-backend-api-to-intercept-http-requests-in-development)
