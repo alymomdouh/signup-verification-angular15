@@ -23,3 +23,4 @@ other source control is
 ### 11- [Angular CLI - Install or Update the latest version of Angular CLI](https://jasonwatmore.com/post/2022/11/09/angular-cli-install-or-update-the-latest-version-of-angular-cli)
 
 ### 12- [Angular 14 - Communicating Between Components with RxJS Observable & Subject](https://jasonwatmore.com/post/2022/11/17/angular-14-communicating-between-components-with-rxjs-observable-subject)
+### 13- [Angular 14 - Redirect to Previous URL after Login with Auth Guard](https://jasonwatmore.com/post/2022/12/01/angular-14-redirect-to-previous-url-after-login-with-auth-guard)
