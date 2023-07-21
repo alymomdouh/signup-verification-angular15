@@ -21,3 +21,5 @@ other source control is
 ### 10- [JWT with Refresh Tokens vs JWT Access Tokens Alone for Auth](https://jasonwatmore.com/jwt-with-refresh-tokens-vs-jwt-access-tokens-alone-for-auth) (Angular 14 and .NET 6.0 API)
 
 ### 11- [Angular CLI - Install or Update the latest version of Angular CLI](https://jasonwatmore.com/post/2022/11/09/angular-cli-install-or-update-the-latest-version-of-angular-cli)
+
+### 12- [Angular 14 - Communicating Between Components with RxJS Observable & Subject](https://jasonwatmore.com/post/2022/11/17/angular-14-communicating-between-components-with-rxjs-observable-subject)
