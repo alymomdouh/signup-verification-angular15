@@ -27,3 +27,4 @@ other source control is
 ### 14- [Angular - Logout on 401 Unauthorized or 403 Forbidden HTTP Response with Interceptor](https://jasonwatmore.com/post/2022/12/02/angular-logout-on-401-unauthorized-or-403-forbidden-http-response-with-interceptor)
 ### 15- [Angular 14 - JWT Authentication with Refresh Tokens Example & Tutorial](https://jasonwatmore.com/post/2022/12/08/angular-14-jwt-authentication-with-refresh-tokens-example-tutorial)
 ### 16- [Angular - Execute an init function before app startup with an Angular APP_INITIALIZER](https://jasonwatmore.com/post/2022/12/09/angular-execute-an-init-function-before-app-startup-with-an-angular-app-initializer)
+### 17- [Angular 14 - Dynamic Add/Edit Form that Supports Create and Update Mode](https://jasonwatmore.com/post/2022/12/05/angular-14-dynamic-add-edit-form-that-supports-create-and-update-mode)
