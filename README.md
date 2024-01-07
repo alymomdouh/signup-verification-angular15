@@ -33,3 +33,4 @@ other source control is
 ### 20-[Angular 14 - Alert (Toaster) Notifications Tutorial & Example](https://jasonwatmore.com/post/2022/11/23/angular-14-alert-toaster-notifications-tutorial-example)
 ### 21-[Angular - Detect Route Change (Location Change) Event in Angular](https://jasonwatmore.com/post/2022/11/24/angular-detect-route-change-location-change-event-in-angular)
 ### 22-[Angular - Fix for Argument of type 'string | null' is not assignable to parameter of type 'string'](https://jasonwatmore.com/post/2022/11/10/angular-fix-for-argument-of-type-string-null-is-not-assignable-to-parameter-of-type-string)
+### 23-[How to Embed Swagger UI into Angular](https://blog.stackademic.com/how-to-embed-swagger-ui-into-angular-50e89f911447)
