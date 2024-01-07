@@ -11,7 +11,10 @@ const routes: Routes = [
   { path: 'account', loadChildren: accountModule },
   { path: 'profile', loadChildren: profileModule, canActivate: [AuthGuard] },
   { path: 'admin', loadChildren: adminModule, canActivate: [AuthGuard], data: { roles: [Role.Admin] } },
-
+  {
+    path: 'swagger',
+    loadChildren: () => import('./modules/swagger-ui/swagger-ui.module').then(m => m.SwaggerUiModule)
+  },
   // otherwise redirect to home
   { path: '**', redirectTo: '' }
 ];
